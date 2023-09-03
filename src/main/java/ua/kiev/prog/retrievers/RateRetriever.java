@@ -10,7 +10,7 @@ import ua.kiev.prog.json.Rate;
 public class RateRetriever {
 
     private static final String URL =
-            "http://data.fixer.io/api/latest?access_key=30e7ff0de73cf99ac8842101abce80ca";
+            "http://data.fixer.io/api/latest?access_key=4f56095e75dea61dd9c4c607d915cd1e";
 
     @Cacheable("rates") // Redis
     public Rate getRate() {
